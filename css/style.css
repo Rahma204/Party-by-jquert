@@ -1,0 +1,83 @@
+:root{
+    --main-color: rgba(214, 46, 51 , 0.6);
+    --secondary-color:#212529;
+}
+
+.text-gray{
+    color: #777;
+}
+.text-contact{
+    color: #444;
+}
+.container-fluid  {
+    background-image: url("../images/events-heavenly-header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90%;
+    background-color: slateblue;
+}
+.inner{
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+.nav{
+    left: 10px;
+}
+h2{
+    background-color: var(--main-color);
+    
+   
+}
+.duration p{
+    background-color: #ccc;
+    padding-inline: 15px;
+    color: var(--secondary-color);
+}
+.card1{
+    width: 58%;
+}
+.counter{
+    background-image: url("../images/invitation-2508607__340.jpg");
+}
+.counter .time{
+    border: 2px solid black;
+}
+.counter .container{
+    padding: 100px 0;
+}
+/* .signer-one >p {
+   background-color: greenyellow;
+}  */
+aside {
+    width: 0%;
+    overflow: hidden;
+    height: 100%;
+    z-index: 9999;
+    background-color: #111;
+}
+aside a, aside i{
+    transition: color 500ms;
+}
+
+aside a:hover , aside i:hover{
+    color: #D62E33 !important;
+}
+.close >i {
+bottom: -38px;
+}
+.contact h4{
+    font-weight: 900;
+}
+.contact button{
+    background-color: #D62E33;
+    border: none;
+}
+.text-contat{
+    color: #D62E33;
+}
+.signer-two > p,
+.signer-three > p,
+.signer-four > p{
+     overflow: hidden;
+     display: none;
+}
